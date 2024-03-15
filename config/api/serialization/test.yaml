@@ -1,0 +1,11 @@
+App\Entity\Test:
+  attributes:
+    id:
+      groups:
+        - 'test:read'
+        - 'test:read:collection'
+    test:
+      groups:
+        - 'test:read'
+        - 'test:read:collection'
+        - 'test:write'
